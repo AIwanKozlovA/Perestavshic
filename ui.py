@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Widget(object):
     def setupUi(self, Widget):
         Widget.setObjectName("Widget")
-        Widget.resize(784, 678)
+        Widget.setFixedSize(784, 678)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("perestavshic.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Widget.setWindowIcon(icon)
